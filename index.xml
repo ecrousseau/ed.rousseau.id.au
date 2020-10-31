@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content on Ed Rousseau</title>
+    <title>Ed Rousseau</title>
     <link>https://ed.rousseau.id.au/</link>
-    <description>Ed Rousseau (Content)</description>
+    <description>Recent content on Ed Rousseau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-AU</language>
-    <lastBuildDate>Fri, 30 Oct 2020 12:07:28 +1100</lastBuildDate>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 30 Oct 2020 20:33:46 +1100</lastBuildDate><atom:link href="https://ed.rousseau.id.au/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://ed.rousseau.id.au/about/</link>
+      <pubDate>Fri, 30 Oct 2020 20:33:46 +1100</pubDate>
+      
+      <guid>https://ed.rousseau.id.au/about/</guid>
+      <description>My name is Ed Rousseau. If it can be defined as code, I think it should be. If it can be automated, I think it should be.
+If you&amp;rsquo;re interested in getting my help, my email address is edward@rousseau.id.au.</description>
+    </item>
     
-    <atom:link href="https://ed.rousseau.id.au/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>About</title>
+      <link>https://ed.rousseau.id.au/posts/about/</link>
+      <pubDate>Fri, 30 Oct 2020 20:33:46 +1100</pubDate>
+      
+      <guid>https://ed.rousseau.id.au/posts/about/</guid>
+      <description>My name is Ed Rousseau. If it can be defined as code, I think it should be. If it can be automated, I think it should be.
+If you&amp;rsquo;re interested in getting my help, my email address is edward@rousseau.id.au.</description>
+    </item>
     
   </channel>
 </rss>

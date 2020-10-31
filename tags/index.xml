@@ -3,12 +3,8 @@
   <channel>
     <title>Tags on Ed Rousseau</title>
     <link>https://ed.rousseau.id.au/tags/</link>
-    <description>Ed Rousseau (Tags)</description>
+    <description>Recent content in Tags on Ed Rousseau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-AU</language>
-    
-    <atom:link href="https://ed.rousseau.id.au/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-au</language><atom:link href="https://ed.rousseau.id.au/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
