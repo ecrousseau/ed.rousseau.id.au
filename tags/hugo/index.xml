@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ed Rousseau</title>
-    <link>https://ed.rousseau.id.au/</link>
-    <description>Recent content on Ed Rousseau</description>
+    <title>hugo on Ed Rousseau</title>
+    <link>https://ed.rousseau.id.au/tags/hugo/</link>
+    <description>Recent content in hugo on Ed Rousseau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sat, 14 Nov 2020 15:01:35 +1100</lastBuildDate><atom:link href="https://ed.rousseau.id.au/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2020 15:01:35 +1100</lastBuildDate><atom:link href="https://ed.rousseau.id.au/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This site</title>
       <link>https://ed.rousseau.id.au/posts/this_site/</link>
@@ -14,16 +14,6 @@
       
       <guid>https://ed.rousseau.id.au/posts/this_site/</guid>
       <description>Introduction So, you want to start your own blog. You could use an existing service, such as Wordpress (the service, not the software) or Medium. I have to admit that I don&amp;rsquo;t know much about the ups and downs of such services, because I decided straight off the bat to take a more DIY approach. I wanted to write my posts in a code editor instead of a WYSIWYG editor, I wanted the site to be simple &amp;amp; fast &amp;amp; reliable, and I wanted it to be free or close to it.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://ed.rousseau.id.au/posts/about/</link>
-      <pubDate>Fri, 30 Oct 2020 20:33:46 +1100</pubDate>
-      
-      <guid>https://ed.rousseau.id.au/posts/about/</guid>
-      <description>My name is Ed Rousseau. If it can be defined as code, I think it should be. If it can be automated, I think it should be.
-If you&amp;rsquo;re interested in getting my help, my email address is edward@rousseau.id.au.</description>
     </item>
     
   </channel>
