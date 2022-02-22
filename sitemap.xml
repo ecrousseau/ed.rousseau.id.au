@@ -1,49 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ed.rousseau.id.au/tags/cloudflare/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/tags/github/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/tags/hugo/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/posts/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/tags/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/posts/this_site/</loc>
     <lastmod>2020-11-14T15:01:35+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/posts/about/</loc>
     <lastmod>2020-10-30T20:33:46+11:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ed.rousseau.id.au/categories/</loc>
   </url>
-  
 </urlset>

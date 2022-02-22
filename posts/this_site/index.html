@@ -59,7 +59,7 @@
 <meta property="og:image:height" content="1024">
 
 
-  <meta property="article:published_time" content="2020-11-14 15:01:35 &#43;1100 AEDT" />
+  <meta property="article:published_time" content="2020-11-14 15:01:35 &#43;1100 &#43;1100" />
 
 
 
@@ -194,18 +194,18 @@
 <p>There are many ways to generate a static HTML page. You can even do it using Microsoft Word (I think? Is &ldquo;save as web page&rdquo; still a thing?). Anyway, don&rsquo;t do that. Use something like <a href="https://gohugo.io/">Hugo</a>. It will transform your scribblings into nice modern HTML/CSS. It can even add integration with Google Analytics and Twitter and so on, if you&rsquo;re keen.</p>
 <p>To get started, you&rsquo;ll need to grab the hugo binary. The Hugo quickstart tutorial recommends using a package manager, but I found it easier to download the hugo binary from the <a href="https://github.com/gohugoio/hugo/releases">releases page</a>. Just unzip and add it to your path!</p>
 <p>To create the basic folder layout for a new website, open up your favourite command line and run:</p>
-<pre><code>hugo new site mysite
+<pre tabindex="0"><code>hugo new site mysite
 cd mysite
 </code></pre><p><em>From here, assume that we&rsquo;re running all the commands in your &lsquo;mysite&rsquo; directory.</em></p>
 <p>I&rsquo;d recommend making the folder a git repo for version control - this isn&rsquo;t strictly necessary, but its generally a good idea.</p>
-<pre><code>git init .
+<pre tabindex="0"><code>git init .
 echo &quot;public/**&quot; &gt; .gitignore
 </code></pre><p>Now you can add your theme as a submodule. I selected the Terminal theme:</p>
-<pre><code>git submodule add https://github.com/panr/hugo-theme-terminal.git themes/terminal
+<pre tabindex="0"><code>git submodule add https://github.com/panr/hugo-theme-terminal.git themes/terminal
 </code></pre><p>Writing a post for your site is now as simple as creating a Markdown file. Hugo will even help you do that:</p>
-<pre><code>hugo new posts/myfirstpost.md
+<pre tabindex="0"><code>hugo new posts/myfirstpost.md
 </code></pre><p>To see what your site is going to look like, run <code>hugo server -D</code> and then point your favourite browser at <code>http://localhost:1313/</code>.</p>
-<pre><code>&gt; hugo server -D
+<pre tabindex="0"><code>&gt; hugo server -D
 Start building sites …
 
                    | EN
@@ -230,7 +230,7 @@ Press Ctrl+C to stop
 </code></pre><p><img src="/images/hugo_preview.png" alt="Hugo preview"></p>
 <p>The -D tells hugo to include draft content.</p>
 <p>When you&rsquo;re happy, you can &ldquo;build&rdquo; your site by just running <code>hugo</code>. That should result in output along the lines of:</p>
-<pre><code>&gt; hugo
+<pre tabindex="0"><code>&gt; hugo
 Start building sites …
 
                    | EN
@@ -251,7 +251,7 @@ Total in 65 ms
 <p>First, create the repository:
 <img src="/images/github_create_repo.png" alt="Create a GitHub repository"></p>
 <p>Then, generate, commit, and push your content:</p>
-<pre><code>hugo
+<pre tabindex="0"><code>hugo
 cd mysite/public
 git init .
 git add .
@@ -264,7 +264,7 @@ git push -u
 <p>A quick aside - if you&rsquo;re using a custom domain, you need a DNS entry and a CNAME file. I use CloudFlare for DNS, so I created an entry like this:
 <img src="/images/cloudflare_dns.png" alt="CloudFlare DNS"></p>
 <p>Then you need a CNAME file - a text file containing your site&rsquo;s domain name, so GitHub knows what to listen for. GitHub will actually add that to your repo automatically, but we need to make sure Hugo doesn&rsquo;t delete it again. Do this by adding it to the <code>static</code> folder in your folder structure:</p>
-<pre><code>echo &quot;my.domain.com&quot; &gt; static/CNAME
+<pre tabindex="0"><code>echo &quot;my.domain.com&quot; &gt; static/CNAME
 </code></pre><p>You might also need to adjust the base URL in <code>mysite/config.toml</code>. Mine is <code>https://ed.rousseau.id.au/</code> but yours will be different. If you&rsquo;re using the GitHub-provided domain, it&rsquo;ll look similar to <code>https://ecrousseau.github.io/mysite/</code>.</p>
 <p>At this point, GitHub should take care of serving up your static HTML content to visitors&hellip; and if you&rsquo;re reading this, its working! You can check out the underlying HTML by viewing the repository in GitHub: <a href="https://github.com/ecrousseau/ed.rousseau.id.au">https://github.com/ecrousseau/ed.rousseau.id.au</a>.</p>
 <p>GitHub is taking care of load balancing, compute, storage, networking, the whole works. They&rsquo;re even paying the electricity bill (thanks GitHub!). This leaves me with the job of worrying about the domain registration and DNS hosting - which I&rsquo;ve farmed out to CloudFlare, so no worries there either - and actually writing posts. Sadly I still have to do that myself&hellip;</p>
@@ -304,7 +304,7 @@ git push -u
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>
